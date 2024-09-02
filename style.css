@@ -1,0 +1,187 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 10%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  list-style: none;
+}
+header ul li:hover {
+  cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAADLy/IAAAAAAOjo6AD///8AzMzMAIeHhwCxsfAA8vLyAAAA/wC9vb0Av7+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERFVVVVVVVVVVVVVERERERFVMzd3Nzd3d3c3dFUREREVQzMzMzM3dzN3d3dEURERVDMzMzMzd3Izd3N3dEURFUQ2ZmMzMRIREzMzZmZEURVDYAAGMxcxNzEzNgAAZFFUMzZmYzM3dzczMzNmZnRFVDNzMzMzN3MzMzMzMzd0RVQzMxMzE3d3d3MzEzMTdEVUMzMxETc3d3MzMzERN3RFVDN3MzMzdzczMzMzM3N0RVQzczMzd3N3czczMzM3dEVUQ3czNzM3c3N3NzM3N0RFFUNzNzMzMzMzMzM3MzdEURVEM3MzmZmZpEREM3N0RFERVHMzN5ERERERFDc3NEURERVDN3ORERERERQ3d0RREREVQ3dzkREREREUN3REUREREVQzM5ERERERFDdERREREREVQ3ORERERERQ0RFEREREREVRHkREREREUREUREREREYEVRJERERERFERRERERERiIEVWRERERERRVERERERGDiIERUREREREVEREREREYOIiIERERERERERERERERGIiIiBERERERERERERERERGIGIERERERERERERERERH///////////////////////////wAAD/wAAAP4AAAB8AAAAOAAAABgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAAAAPgAAAH4AAAB/AAAA/4AAAf/AAAP/YAAH/jAAD/wcAD/4DgB/+A+B//yf///w=="), auto;
+}
+
+button {
+  background-color: #FF0000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.primeiraSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.primeiraSessao div {
+  height: 20vh;
+}
+.primeiraSessao div h1 {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+.primeiraSessao div p {
+  padding: 20px 0;
+  width: 40vw;
+  font-family: "Poppins", sans-serif;
+}
+.primeiraSessao img {
+  width: 100%;
+  height: 100%;
+}
+
+.segundasessão {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Koh Santepheap", serif;
+  font-weight: 400;
+}
+.segundasessão img {
+  width: 40vw;
+}
+.segundasessão div {
+  margin-left: 30px;
+}
+.segundasessão h4 {
+  color: #FF0000;
+}
+.segundasessão h2 {
+  padding: 10px 0;
+}
+.segundasessão p {
+  width: 30vw;
+  font-family: "Poppins", sans-serif;
+}
+
+.terceira-sessao {
+  padding: 20px;
+}
+.terceira-sessao h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+.terceira-sessao .sessao-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.terceira-sessao .prato {
+  background: #f8f5f2;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  max-width: 300px;
+}
+.terceira-sessao:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.terceira-sessao img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 10px;
+}
+.terceira-sessao h4, .terceira-sessao p, .terceira-sessao .preco {
+  margin: 10px 0;
+}
+.terceira-sessao h4 {
+  font-size: 18px;
+  color: #333;
+}
+.terceira-sessao p {
+  color: #666;
+  font-size: 14px;
+}
+.terceira-sessao .preco {
+  color: #ff0000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.quarta-sessao {
+  padding: 20px;
+}
+.quarta-sessao h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+.quarta-sessao .sessao-coments {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.quarta-sessao h3, .quarta-sessao p, .quarta-sessao .classificação {
+  margin: 10px 0;
+}
+.quarta-sessao .classificação {
+  width: 80px;
+}
+
+.ultimasessao {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 50px;
+  padding-top: 40px;
+}
+.ultimasessao h4 {
+  margin-bottom: 20px;
+}
+.ultimasessao .lista-sem-marcador {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+.ultimasessao .lista-sem-marcador li {
+  margin-bottom: 10px;
+}
+
+footer {
+  position: relative;
+  padding: 20px;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+footer .logo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
